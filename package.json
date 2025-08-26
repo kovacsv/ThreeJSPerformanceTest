@@ -1,0 +1,19 @@
+{
+	"name": "three-js-performance-test",
+	"version": "0.0.1",
+	"type": "module",
+	"devDependencies": {
+		"esbuild": "^0.19.0",
+		"esbuild-serve": "^1.0.1",
+		"http-server": "^14.0.0"
+	},
+	"scripts": {
+		"build": "node esbuild.config.js",
+		"start": "node esbuild.config.js -w"
+	},
+	"dependencies": {
+		"stats": "^1.0.0",
+		"stats.js": "^0.17.0",
+		"three": "^0.164.1"
+	}
+}
